@@ -19,7 +19,7 @@
     <div class="col-lg-5 col-12">
         <div id="auth-left">
             <div class="auth-logo">
-                <a href="index.html"><img src="{{ asset ('/images/logo/guest.png')}}" alt="Logo"></a>
+                <a href="index.html"><img src="{{ asset ('/images/logo/logo.png')}}" alt="Logo"></a>
             </div>
             <h1 class="auth-title">Log in</h1>
            
@@ -54,7 +54,7 @@
                         Keep me logged in
                     </label>
                 </div>
-                <button type="submit" class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Log in</button>
+                <button type="submit" class="btn btn-secondary btn-block btn-lg shadow-lg mt-5">Log in</button>
             </form>
             <div class="text-center mt-5 text-lg fs-4">
                 <p class="text-gray-600"> <a href="auth-register.html" class="font-bold">Sign
@@ -68,9 +68,8 @@
 
         </div>
     </div>
-</div>
+            </div>
 
-    </div>
-</body>
-
+        </div>
+    </body>
 </html>

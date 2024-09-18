@@ -23,4 +23,6 @@ Route::group([
     Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');
 
     Route::resource('/institution', App\Http\Controllers\InstitutionsController::class);
+
+    Route::resource('/guests', App\Http\Controllers\GuestController::class)->only(['index', 'show', 'destroy']);
  });

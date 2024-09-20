@@ -18,7 +18,7 @@ class GuestSeeder extends Seeder
         Institution::create(['name'=> 'Dinas']);
         Institution::create(['name'=> 'Sekolah']);
 
-        Guest::factory(100)->create();
+        Guest::factory(1000)->create();
     }
 
 }
